@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="777.0" y="1014.0">com</node>
+    <node x="0.0" y="1014.0">images</node>
+    <node x="578.0" y="914.0">netscape</node>
+    <node x="582.0" y="0.0">TestDescFile</node>
+    <node x="951.0" y="1014.0">org</node>
+    <node x="559.0" y="746.0">toolbarButtonGraphics</node>
+    <node x="0.0" y="1114.0">sun</node>
+    <node x="831.5" y="0.0">utm</node>
+    <node x="796.0" y="914.0">META-INF</node>
+    <node x="174.0" y="1114.0">jdk</node>
+    <node x="202.0" y="0.0">MyClass</node>
+    <node x="298.0" y="914.0">groovyjarjarasm</node>
+    <node x="594.0" y="1014.0">java</node>
+    <node x="201.0" y="1014.0">groovy</node>
+    <node x="795.0" y="105.0">MoveLRTF</node>
+    <node x="402.0" y="1014.0">javax</node>
+    <node x="0.0" y="215.0">utmeditor</node>
+    <node x="217.0" y="746.0">groovyjarjarcommonscli</node>
+    <node x="97.75" y="535.0">ImplementController</node>
+    <node x="0.0" y="914.0">groovyjarjarantlr</node>
+    <node x="0.0" y="746.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ImplementController" target="utmeditor">
+      <point x="-66.25" y="-83.0" />
+      <point x="164.0" y="510.0" />
+      <point x="91.0" y="510.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="MoveLRTF" target="utm">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ImplementController" target="MyClass">
+      <point x="66.25" y="-83.0" />
+      <point x="296.5" y="510.0" />
+      <point x="369.5" y="510.0" />
+      <point x="0.0" y="242.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8474348191757783" x="647.5920994229913" y="333.5863293386595" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

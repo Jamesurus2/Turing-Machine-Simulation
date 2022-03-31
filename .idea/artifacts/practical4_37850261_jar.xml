@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="practical4-37850261:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/practical4_37850261_jar</output-path>
+    <root id="archive" name="practical4-37850261.jar">
+      <element id="module-output" name="practical4-37850261" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../APres0325/turingmachines.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
