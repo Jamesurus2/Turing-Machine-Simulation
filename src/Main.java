@@ -7,7 +7,7 @@ import java.io.IOException;
  * 1. After you choose the description file, utm window will display.
  * 2. input the tape string, tm begins running.
  * @author Sen Wang
- * @version 1.0
+ * @version 1.1 changed
  */
 public class Main {
     private static TestDescFile readFile;
