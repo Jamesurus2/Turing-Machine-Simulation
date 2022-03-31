@@ -11,6 +11,8 @@ import java.io.IOException;
  */
 public class Main {
     private static TestDescFile readFile;
+
+
     private static boolean isAnimation;
 
     /**
