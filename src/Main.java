@@ -51,6 +51,7 @@ public class Main {
             }
             extendedUtm.executeTM(tm, args[1], isAnimation);
         }else{
+            //if user input wrong things, execution will give tips.
             System.out.println("Please input 3 or 0 parameters: (1.file_path, 2.tape string, 3.isAnimation)");
         }
     }
