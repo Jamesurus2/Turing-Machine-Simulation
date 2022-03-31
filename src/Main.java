@@ -6,6 +6,7 @@ import java.io.IOException;
 /**
  * 1. After you choose the description file, utm window will display.
  * 2. input the tape string, tm begins running.
+ *
  * @author Sen Wang
  * @version 1.1 changed
  */
@@ -24,15 +25,14 @@ public class Main {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             UTMEditor a = new UTMEditor();
-            boolean want=true;
-                ImplementController ic = new ImplementController();
-                a.setUTMController(ic);
-        } else if(args.length == 3){
+            ImplementController ic = new ImplementController();
+            a.setUTMController(ic);
+        } else if (args.length == 3) {
             MyClass extendedUtm = new MyClass();
             readFile = new TestDescFile(args[0]);
             // Creates a TM from a description file
             TuringMachine tm = extendedUtm.createTMFromFile(args[0]);
-            
+
             if (args[2].equals("--animation")) {
                 extendedUtm.displayWindow();
                 isAnimation = true;
@@ -50,7 +50,7 @@ public class Main {
                 }
             }
             extendedUtm.executeTM(tm, args[1], isAnimation);
-        }else{
+        } else {
             //if user input wrong things, execution will give tips.
             //now there is 0 changed file
             System.out.println("Please input 3 or 0 parameters: (1.file_path, 2.tape string, 3.isAnimation)");
